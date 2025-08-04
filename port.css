@@ -8,7 +8,8 @@
     border: none;
     outline: none;
     scroll-behavior: smooth;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif; 
+
 }
 
 :root {
@@ -136,7 +137,9 @@ section {
 .home-content h1 {
     font-size: 5.6rem;
     font-weight: 700;
-    margin-bottom: .3rem;
+    line-height: 1.1;
+    margin: 0.5rem;
+    white-space: nowrap;
 }
 
 .home-content p {
@@ -383,7 +386,7 @@ span {
 }
 
 .portfolio {
-    min-height: auto;
+    min-height: initial;
     padding-bottom: 12rem;
 }
 
@@ -931,9 +934,10 @@ span {
     }
 }
 
-@media (max-width: 315px) {
+@media (max-width: 768px) {
     .home-content h1 {
         font-size: 4.5rem;
+        
     }
 }
 img {
